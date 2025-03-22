@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Page</title>
+    <link rel="stylesheet" href="interview.css">
+</head>
+<body>
+    <div class="container">
+        <header class="greeting">
+            <h1>Hi, I'm Xinyang Zhang</h1>
+        </header>
+
+        <div class="video-section">
+            <p class="instruction">Please click the button to download the video for interview</p>
+            <button class="video-btn" onclick="downloadVideo()">Interview Video</button>
+        </div>
+
+        <div class="about-section">
+            <h2>WHO AM I?</h2>
+            <ul>
+                <li>Founder & CEO of Caloogy AI</li>
+                <li>Shareholder of Tesla, Apple, Microsoft, Nvidia, AMD, Oracle, etc.</li>
+                <li>Voice for young generation</li>
+            </ul>
+        </div>
+
+        <div class="explore-section">
+            <h2>Explore More About Me</h2>
+            <div class="button-group">
+                <a href="http://theozhang.xyz" class="explore-btn website-btn">Personal Website</a>
+                <a href="https://caloogy.top" class="explore-btn cology-btn">Cology AI</a>
+            </div>
+        </div>
+    </div>
+    <script src="interview.js"></script>
+</body>
+</html>
